@@ -1,0 +1,10 @@
+# GitHub Pages Configuration
+title: DTalk Support
+description: Support page for DTalk app
+theme: minima
+plugins:
+  - jekyll-feed
+
+# If you want to use Jekyll, uncomment the theme above
+# Otherwise, this file can be empty for static HTML sites
+
