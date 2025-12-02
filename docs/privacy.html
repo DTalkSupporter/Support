@@ -1,183 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - DTalk</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        .privacy-content {
-            text-align: left;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .privacy-content h2 {
-            color: #667eea;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            font-size: 1.5em;
-        }
-        .privacy-content h3 {
-            color: #764ba2;
-            margin-top: 25px;
-            margin-bottom: 12px;
-            font-size: 1.2em;
-        }
-        .privacy-content p {
-            margin-bottom: 15px;
-            line-height: 1.8;
-            color: #555;
-        }
-        .privacy-content ul {
-            margin-left: 20px;
-            margin-bottom: 15px;
-            line-height: 1.8;
-            color: #555;
-        }
-        .privacy-content li {
-            margin-bottom: 8px;
-        }
-        .last-updated {
-            font-style: italic;
-            color: #888;
-            margin-bottom: 30px;
-            font-size: 0.9em;
-        }
-        .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: #667eea;
-            text-decoration: none;
-            margin-bottom: 20px;
-            font-weight: 500;
-            transition: color 0.3s ease;
-        }
-        .back-link:hover {
-            color: #764ba2;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-translate="privacy.title">隐私政策 - DTalk</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .privacy-container {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 800px;
+      width: 100%;
+      margin: 20px auto;
+      overflow: hidden;
+    }
+    .privacy-header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 30px;
+      text-align: center;
+      color: white;
+    }
+    .privacy-header h1 {
+      font-size: 2.5em;
+      font-weight: 700;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+    .privacy-content {
+      padding: 40px;
+      line-height: 1.8;
+      color: #333;
+    }
+    .privacy-content h2 {
+      color: #667eea;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-size: 1.5em;
+    }
+    .privacy-content h3 {
+      color: #764ba2;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 1.2em;
+    }
+    .privacy-content p {
+      margin-bottom: 15px;
+    }
+    .privacy-content ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+    .privacy-content li {
+      margin-bottom: 8px;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+    .back-link:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+    @media (max-width: 600px) {
+      .privacy-content {
+        padding: 20px;
+      }
+      .privacy-header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1 class="logo">DTalk</h1>
-            <div class="language-switcher">
-                <button class="lang-btn active" data-lang="en">English</button>
-                <button class="lang-btn" data-lang="zh">简体中文</button>
-                <button class="lang-btn" data-lang="zh-TW">繁體中文</button>
-            </div>
-        </header>
-
-        <main>
-            <div class="content">
-                <div class="privacy-content">
-                    <a href="index.html" class="back-link" data-translate="privacy.back">← Back to Support</a>
-                    
-                    <h1 data-translate="privacy.title">Privacy Policy</h1>
-                    <p class="last-updated" data-translate="privacy.lastUpdated">Last Updated: December 2, 2025</p>
-
-                    <section>
-                        <h2 data-translate="privacy.intro.title">Introduction</h2>
-                        <p data-translate="privacy.intro.content">DTalk ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the App.</p>
-                    </section>
-
-                    <section>
-                        <h2 data-translate="privacy.collect.title">Information We Collect</h2>
-                        <h3 data-translate="privacy.collect.personal.title">Personal Information</h3>
-                        <p data-translate="privacy.collect.personal.content">When you register with the App, express an interest in obtaining information about us or our products and services, or otherwise contact us, we may collect personal information that you voluntarily provide to us. This may include:</p>
-                        <ul>
-                            <li data-translate="privacy.collect.personal.item1">Name and contact information (email address, for account registration and notifications)</li>
-                            <li data-translate="privacy.collect.personal.item2">Account credentials (password hash)</li>
-                            <li data-translate="privacy.collect.personal.item3">Profile information (optional, custom nickname)</li>
-                        </ul>
-
-                        <h3 data-translate="privacy.collect.usage.title">Usage Information</h3>
-                        <p data-translate="privacy.collect.usage.content">We may collect information about how you access and use the App, including:</p>
-                        <ul>
-                            <li data-translate="privacy.collect.usage.item1">Device information (device type, operating system, unique device identifiers)</li>
-                            <li data-translate="privacy.collect.usage.item2">Log information (access times, features used, pages viewed)</li>
-                            <li data-translate="privacy.collect.usage.item3">Location information (if you grant us permission, only approximate location based on IP address, for timezone reminder adjustments and anonymous global statistics; we do not collect precise GPS data)</li>
-                        </ul>
-                        <p data-translate="privacy.collect.sensitive">We do not collect any sensitive data, such as scripture reading records, payment details, or health information.</p>
-                    </section>
-
-                    <section>
-                        <h2 data-translate="privacy.use.title">How We Use Your Information</h2>
-                        <p data-translate="privacy.use.content">We use the information we collect to:</p>
-                        <ul>
-                            <li data-translate="privacy.use.item1">Provide, maintain, and improve our services</li>
-                            <li data-translate="privacy.use.item2">Process your transactions and send related information</li>
-                            <li data-translate="privacy.use.item3">Send you technical notices, updates, and support messages</li>
-                            <li data-translate="privacy.use.item4">Respond to your comments, questions, and requests</li>
-                            <li data-translate="privacy.use.item5">Monitor and analyze trends, usage, and activities</li>
-                            <li data-translate="privacy.use.item6">Detect, prevent, and address technical issues</li>
-                        </ul>
-                    </section>
-
-                    <section>
-                        <h2 data-translate="privacy.share.title">Information Sharing and Disclosure</h2>
-                        <p data-translate="privacy.share.content">We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:</p>
-                        <ul>
-                            <li data-translate="privacy.share.item1">With your explicit consent</li>
-                            <li data-translate="privacy.share.item2">To comply with legal obligations</li>
-                            <li data-translate="privacy.share.item3">To protect our rights and safety</li>
-                            <li data-translate="privacy.share.item4">With service providers who assist us in operating our App (under strict confidentiality agreements, such as Firebase for authentication)</li>
-                        </ul>
-                    </section>
-
-                    <section>
-                        <h2 data-translate="privacy.security.title">Data Security</h2>
-                        <p data-translate="privacy.security.content">We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction (such as TLS encryption). However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
-                    </section>
-
-                    <section>
-                        <h2 data-translate="privacy.retention.title">Data Retention</h2>
-                        <p data-translate="privacy.retention.content">We will retain your personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy. For example, account data is retained for 90 days after you delete your account, unless a longer retention period is required or permitted by law.</p>
-                    </section>
-
-                    <section>
-                        <h2 data-translate="privacy.rights.title">Your Rights</h2>
-                        <p data-translate="privacy.rights.content">Depending on your location (such as GDPR or CCPA), you may have certain rights regarding your personal information, including:</p>
-                        <ul>
-                            <li data-translate="privacy.rights.item1">The right to access your personal information</li>
-                            <li data-translate="privacy.rights.item2">The right to correct inaccurate information</li>
-                            <li data-translate="privacy.rights.item3">The right to delete your personal information (including the "right to be forgotten")</li>
-                            <li data-translate="privacy.rights.item4">The right to object to processing of your personal information</li>
-                            <li data-translate="privacy.rights.item5">The right to data portability</li>
-                            <li data-translate="privacy.rights.item6">The right to withdraw consent (for example, turn off location permissions at any time)</li>
-                        </ul>
-                        <p data-translate="privacy.rights.contact">To exercise these rights, please contact us using the information below. We will respond within 30 days and may require verification of your identity (such as email confirmation). You can also directly operate in the App under "Settings → Delete Account".</p>
-                        <p><strong data-translate="privacy.rights.contactLabel">Contact:</strong> <a href="mailto:723562281@qq.com">723562281@qq.com</a></p>
-                    </section>
-
-                    <section>
-                        <h2 data-translate="privacy.children.title">Children's Privacy</h2>
-                        <p data-translate="privacy.children.content">Our App is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.</p>
-                    </section>
-
-                    <section>
-                        <h2 data-translate="privacy.changes.title">Changes to This Privacy Policy</h2>
-                        <p data-translate="privacy.changes.content">We may update this Privacy Policy from time to time. Significant changes will be notified to you through in-app notifications or email. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy Policy periodically for any changes.</p>
-                    </section>
-
-                    <section>
-                        <h2 data-translate="privacy.contact.title">Contact Us</h2>
-                        <p data-translate="privacy.contact.content">If you have any questions about this Privacy Policy, please contact us:</p>
-                        <p>
-                            <strong data-translate="privacy.contact.email">Email:</strong> <a href="mailto:723562281@qq.com">723562281@qq.com</a>
-                        </p>
-                    </section>
-                </div>
-            </div>
-        </main>
-
-        <footer>
-            <p data-translate="footer.text">© 2024 DTalk. All rights reserved.</p>
-        </footer>
+  <div class="privacy-container">
+    <div class="privacy-header">
+      <a href="index.html" class="back-link" data-translate="privacy.back">← 返回支持页面</a>
+      <h1 data-translate="privacy.title">隐私政策</h1>
+      <div class="language-switcher">
+        <button class="lang-btn active" data-lang="zh">简体中文</button>
+        <button class="lang-btn" data-lang="zh-TW">繁體中文</button>
+        <button class="lang-btn" data-lang="en">English</button>
+      </div>
     </div>
 
-    <script src="translations.js"></script>
-    <script src="script.js"></script>
+    <div class="privacy-content">
+      <p data-translate="privacy.lastUpdated">最后更新：2025年12月2日</p>
+
+      <p data-translate="privacy.intro.content">DTalk（"我们"或"我们的"）致力于保护您的隐私。本隐私政策说明了当您使用我们的移动应用程序（"应用"）时，我们如何收集、使用、披露和保护您的信息。请仔细阅读本隐私政策。如果您不同意本隐私政策的条款，请不要访问本应用。</p>
+
+      <h2 data-translate="privacy.collect.title">我们收集的信息</h2>
+
+      <h3 data-translate="privacy.collect.personal.title">个人信息</h3>
+      <p data-translate="privacy.collect.personal.content">当您注册应用、表示有兴趣了解我们或我们的产品和服务，或以其他方式联系我们时，我们可能会收集您自愿提供给我们的个人信息。这可能包括：</p>
+      <ul>
+        <li data-translate="privacy.collect.personal.item1">姓名和联系信息（电子邮件地址，用于账户注册和通知）</li>
+        <li data-translate="privacy.collect.personal.item2">账户凭证（密码哈希）</li>
+        <li data-translate="privacy.collect.personal.item3">个人资料信息（可选，自定义昵称）</li>
+      </ul>
+
+      <h3 data-translate="privacy.collect.usage.title">使用信息</h3>
+      <p data-translate="privacy.collect.usage.content">我们可能会收集有关您如何访问和使用应用的信息，包括：</p>
+      <ul>
+        <li data-translate="privacy.collect.usage.item1">设备信息（设备类型、操作系统、唯一设备标识符）</li>
+        <li data-translate="privacy.collect.usage.item2">日志信息（访问时间、使用的功能、查看的页面）</li>
+        <li data-translate="privacy.collect.usage.item3">位置信息（如果您授予我们权限，仅粗略位置基于 IP 地址，用于推荐附近地点；不收集精确 GPS 数据）</li>
+      </ul>
+
+      <p data-translate="privacy.collect.sensitive">我们不收集任何敏感数据，如经文阅读记录、支付细节或健康信息。</p>
+
+      <h2 data-translate="privacy.use.title">我们如何使用您的信息</h2>
+
+      <p data-translate="privacy.use.content">我们使用收集的信息来：</p>
+      <ul>
+        <li data-translate="privacy.use.item1">提供、维护和改进我们的服务</li>
+        <li data-translate="privacy.use.item2">处理您的交易并发送相关信息</li>
+        <li data-translate="privacy.use.item3">向您发送技术通知、更新和支持消息</li>
+        <li data-translate="privacy.use.item4">回复您的评论、问题和请求</li>
+        <li data-translate="privacy.use.item5">监控和分析趋势、使用情况和活动</li>
+        <li data-translate="privacy.use.item6">检测、预防和解决技术问题</li>
+      </ul>
+
+      <h2 data-translate="privacy.share.title">信息共享和披露</h2>
+
+      <p data-translate="privacy.share.content">我们不会向第三方出售、交易或出租您的个人信息。我们仅在以下情况下共享您的信息：</p>
+      <ul>
+        <li data-translate="privacy.share.item1">经您明确同意</li>
+        <li data-translate="privacy.share.item2">遵守法律义务</li>
+        <li data-translate="privacy.share.item3">保护我们的权利和安全</li>
+        <li data-translate="privacy.share.item4">与协助我们运营应用的服务提供商（在严格的保密协议下，例如 Firebase 用于认证）</li>
+      </ul>
+
+      <h2 data-translate="privacy.security.title">数据安全</h2>
+
+      <p data-translate="privacy.security.content">我们实施适当的技术和组织安全措施，以保护您的个人信息免受未经授权的访问、更改、披露或破坏（如 TLS 加密）。但是，通过互联网或电子存储传输的任何方法都不是100%安全的，我们无法保证绝对安全。</p>
+
+      <h2 data-translate="privacy.retention.title">数据保留</h2>
+
+      <p data-translate="privacy.retention.content">我们只会在实现本隐私政策中概述的目的所需的时间内保留您的个人信息，例如账户数据保留至您删除账户后 90 天，除非法律要求或允许更长的保留期。</p>
+
+      <h2 data-translate="privacy.rights.title">您的权利</h2>
+
+      <p data-translate="privacy.rights.content">根据您所在的位置（如 GDPR 或 CCPA），您可能对您的个人信息拥有某些权利，包括：</p>
+      <ul>
+        <li data-translate="privacy.rights.item1">访问您的个人信息的权利</li>
+        <li data-translate="privacy.rights.item2">更正不准确信息的权利</li>
+        <li data-translate="privacy.rights.item3">删除您的个人信息的权利（包括"被遗忘权"）</li>
+        <li data-translate="privacy.rights.item4">反对处理您的个人信息的权利</li>
+        <li data-translate="privacy.rights.item5">数据可携权</li>
+        <li data-translate="privacy.rights.item6">撤回同意的权利（例如，随时关闭位置权限）</li>
+      </ul>
+
+      <p data-translate="privacy.rights.contact">要行使这些权利，请通过以下方式联系我们。我们将在 30 天内响应，并可能要求验证您的身份（如邮箱确认）。您可在 App 内"设置 → 删除账户"直接操作。</p>
+
+      <p data-translate="privacy.rights.email">联系：723562281@qq.com</p>
+
+      <h2 data-translate="privacy.children.title">儿童隐私</h2>
+
+      <p data-translate="privacy.children.content">我们的应用不适用于13岁以下的儿童。我们不会故意收集13岁以下儿童的个人信息。如果您是父母或监护人，并认为您的孩子向我们提供了个人信息，请立即联系我们。</p>
+
+      <h2 data-translate="privacy.changes.title">隐私政策的变更</h2>
+
+      <p data-translate="privacy.changes.content">我们可能会不时更新本隐私政策。重大变更会通过应用内通知或邮件告知您。我们将通过在此页面上发布新的隐私政策并更新"最后更新"日期来通知您任何变更。建议您定期查看本隐私政策以了解任何变更。</p>
+
+      <h2 data-translate="privacy.contact.title">联系我们</h2>
+
+      <p data-translate="privacy.contact.content">如果您对本隐私政策有任何疑问，请联系我们：</p>
+
+      <p data-translate="privacy.contact.email">电子邮件：723562281@qq.com</p>
+    </div>
+  </div>
+
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
